@@ -13,6 +13,7 @@
 		15AFC2F5254D56170021CE12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AFC2F4254D56170021CE12 /* Preview Assets.xcassets */; };
 		15AFC300254D56170021CE12 /* AwamoriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC2FF254D56170021CE12 /* AwamoriTests.swift */; };
 		15AFC30B254D56170021CE12 /* AwamoriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC30A254D56170021CE12 /* AwamoriUITests.swift */; };
+		15AFC31C254D57CB0021CE12 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC31B254D57CB0021CE12 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		15AFC306254D56170021CE12 /* AwamoriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwamoriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15AFC30A254D56170021CE12 /* AwamoriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwamoriUITests.swift; sourceTree = "<group>"; };
 		15AFC30C254D56170021CE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15AFC31B254D57CB0021CE12 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				15AFC2ED254D56150021CE12 /* AwamoriApp.swift */,
 				15AFC2EF254D56150021CE12 /* ContentView.swift */,
+				15AFC31B254D57CB0021CE12 /* MapView.swift */,
 				15AFC2F1254D56170021CE12 /* Assets.xcassets */,
 				15AFC2F6254D56170021CE12 /* Info.plist */,
 				15AFC2F3254D56170021CE12 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15AFC2F0254D56150021CE12 /* ContentView.swift in Sources */,
+				15AFC31C254D57CB0021CE12 /* MapView.swift in Sources */,
 				15AFC2EE254D56150021CE12 /* AwamoriApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
