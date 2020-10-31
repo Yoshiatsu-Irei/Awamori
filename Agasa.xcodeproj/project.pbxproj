@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15AFC2EE254D56150021CE12 /* AwamoriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC2ED254D56150021CE12 /* AwamoriApp.swift */; };
-		15AFC2F0254D56150021CE12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC2EF254D56150021CE12 /* ContentView.swift */; };
-		15AFC2F2254D56170021CE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AFC2F1254D56170021CE12 /* Assets.xcassets */; };
-		15AFC2F5254D56170021CE12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15AFC2F4254D56170021CE12 /* Preview Assets.xcassets */; };
-		15AFC300254D56170021CE12 /* AwamoriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC2FF254D56170021CE12 /* AwamoriTests.swift */; };
-		15AFC30B254D56170021CE12 /* AwamoriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC30A254D56170021CE12 /* AwamoriUITests.swift */; };
-		15AFC31C254D57CB0021CE12 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AFC31B254D57CB0021CE12 /* MapView.swift */; };
+		15497D06254D5E980069DB98 /* AgasaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15497D05254D5E980069DB98 /* AgasaApp.swift */; };
+		15497D08254D5E980069DB98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15497D07254D5E980069DB98 /* ContentView.swift */; };
+		15497D0A254D5E990069DB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15497D09254D5E990069DB98 /* Assets.xcassets */; };
+		15497D0D254D5E990069DB98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15497D0C254D5E990069DB98 /* Preview Assets.xcassets */; };
+		15497D18254D5E990069DB98 /* AgasaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15497D17254D5E990069DB98 /* AgasaTests.swift */; };
+		15497D23254D5E990069DB98 /* AgasaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15497D22254D5E990069DB98 /* AgasaUITests.swift */; };
+		15553BB9254D6012000BE642 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15553BB8254D6012000BE642 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		15AFC2FC254D56170021CE12 /* PBXContainerItemProxy */ = {
+		15497D14254D5E990069DB98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 15AFC2E2254D56150021CE12 /* Project object */;
+			containerPortal = 15497CFA254D5E980069DB98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 15AFC2E9254D56150021CE12;
-			remoteInfo = Awamori;
+			remoteGlobalIDString = 15497D01254D5E980069DB98;
+			remoteInfo = Agasa;
 		};
-		15AFC307254D56170021CE12 /* PBXContainerItemProxy */ = {
+		15497D1F254D5E990069DB98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 15AFC2E2254D56150021CE12 /* Project object */;
+			containerPortal = 15497CFA254D5E980069DB98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 15AFC2E9254D56150021CE12;
-			remoteInfo = Awamori;
+			remoteGlobalIDString = 15497D01254D5E980069DB98;
+			remoteInfo = Agasa;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15AFC2EA254D56150021CE12 /* Awamori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Awamori.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		15AFC2ED254D56150021CE12 /* AwamoriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwamoriApp.swift; sourceTree = "<group>"; };
-		15AFC2EF254D56150021CE12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		15AFC2F1254D56170021CE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		15AFC2F4254D56170021CE12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		15AFC2F6254D56170021CE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15AFC2FB254D56170021CE12 /* AwamoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwamoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15AFC2FF254D56170021CE12 /* AwamoriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwamoriTests.swift; sourceTree = "<group>"; };
-		15AFC301254D56170021CE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15AFC306254D56170021CE12 /* AwamoriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwamoriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15AFC30A254D56170021CE12 /* AwamoriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwamoriUITests.swift; sourceTree = "<group>"; };
-		15AFC30C254D56170021CE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15AFC31B254D57CB0021CE12 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		15497D02254D5E980069DB98 /* Agasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15497D05254D5E980069DB98 /* AgasaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgasaApp.swift; sourceTree = "<group>"; };
+		15497D07254D5E980069DB98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15497D09254D5E990069DB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15497D0C254D5E990069DB98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15497D0E254D5E990069DB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15497D13254D5E990069DB98 /* AgasaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgasaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15497D17254D5E990069DB98 /* AgasaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgasaTests.swift; sourceTree = "<group>"; };
+		15497D19254D5E990069DB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15497D1E254D5E990069DB98 /* AgasaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgasaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15497D22254D5E990069DB98 /* AgasaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgasaUITests.swift; sourceTree = "<group>"; };
+		15497D24254D5E990069DB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15553BB8254D6012000BE642 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15AFC2E7254D56150021CE12 /* Frameworks */ = {
+		15497CFF254D5E980069DB98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15AFC2F8254D56170021CE12 /* Frameworks */ = {
+		15497D10254D5E990069DB98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15AFC303254D56170021CE12 /* Frameworks */ = {
+		15497D1B254D5E990069DB98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,144 +74,144 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15AFC2E1254D56150021CE12 = {
+		15497CF9254D5E980069DB98 = {
 			isa = PBXGroup;
 			children = (
-				15AFC2EC254D56150021CE12 /* Awamori */,
-				15AFC2FE254D56170021CE12 /* AwamoriTests */,
-				15AFC309254D56170021CE12 /* AwamoriUITests */,
-				15AFC2EB254D56150021CE12 /* Products */,
+				15497D04254D5E980069DB98 /* Agasa */,
+				15497D16254D5E990069DB98 /* AgasaTests */,
+				15497D21254D5E990069DB98 /* AgasaUITests */,
+				15497D03254D5E980069DB98 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		15AFC2EB254D56150021CE12 /* Products */ = {
+		15497D03254D5E980069DB98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15AFC2EA254D56150021CE12 /* Awamori.app */,
-				15AFC2FB254D56170021CE12 /* AwamoriTests.xctest */,
-				15AFC306254D56170021CE12 /* AwamoriUITests.xctest */,
+				15497D02254D5E980069DB98 /* Agasa.app */,
+				15497D13254D5E990069DB98 /* AgasaTests.xctest */,
+				15497D1E254D5E990069DB98 /* AgasaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15AFC2EC254D56150021CE12 /* Awamori */ = {
+		15497D04254D5E980069DB98 /* Agasa */ = {
 			isa = PBXGroup;
 			children = (
-				15AFC2ED254D56150021CE12 /* AwamoriApp.swift */,
-				15AFC2EF254D56150021CE12 /* ContentView.swift */,
-				15AFC31B254D57CB0021CE12 /* MapView.swift */,
-				15AFC2F1254D56170021CE12 /* Assets.xcassets */,
-				15AFC2F6254D56170021CE12 /* Info.plist */,
-				15AFC2F3254D56170021CE12 /* Preview Content */,
+				15497D05254D5E980069DB98 /* AgasaApp.swift */,
+				15497D07254D5E980069DB98 /* ContentView.swift */,
+				15553BB8254D6012000BE642 /* MapView.swift */,
+				15497D09254D5E990069DB98 /* Assets.xcassets */,
+				15497D0E254D5E990069DB98 /* Info.plist */,
+				15497D0B254D5E990069DB98 /* Preview Content */,
 			);
-			path = Awamori;
+			path = Agasa;
 			sourceTree = "<group>";
 		};
-		15AFC2F3254D56170021CE12 /* Preview Content */ = {
+		15497D0B254D5E990069DB98 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				15AFC2F4254D56170021CE12 /* Preview Assets.xcassets */,
+				15497D0C254D5E990069DB98 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		15AFC2FE254D56170021CE12 /* AwamoriTests */ = {
+		15497D16254D5E990069DB98 /* AgasaTests */ = {
 			isa = PBXGroup;
 			children = (
-				15AFC2FF254D56170021CE12 /* AwamoriTests.swift */,
-				15AFC301254D56170021CE12 /* Info.plist */,
+				15497D17254D5E990069DB98 /* AgasaTests.swift */,
+				15497D19254D5E990069DB98 /* Info.plist */,
 			);
-			path = AwamoriTests;
+			path = AgasaTests;
 			sourceTree = "<group>";
 		};
-		15AFC309254D56170021CE12 /* AwamoriUITests */ = {
+		15497D21254D5E990069DB98 /* AgasaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				15AFC30A254D56170021CE12 /* AwamoriUITests.swift */,
-				15AFC30C254D56170021CE12 /* Info.plist */,
+				15497D22254D5E990069DB98 /* AgasaUITests.swift */,
+				15497D24254D5E990069DB98 /* Info.plist */,
 			);
-			path = AwamoriUITests;
+			path = AgasaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15AFC2E9254D56150021CE12 /* Awamori */ = {
+		15497D01254D5E980069DB98 /* Agasa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15AFC30F254D56170021CE12 /* Build configuration list for PBXNativeTarget "Awamori" */;
+			buildConfigurationList = 15497D27254D5E990069DB98 /* Build configuration list for PBXNativeTarget "Agasa" */;
 			buildPhases = (
-				15AFC2E6254D56150021CE12 /* Sources */,
-				15AFC2E7254D56150021CE12 /* Frameworks */,
-				15AFC2E8254D56150021CE12 /* Resources */,
+				15497CFE254D5E980069DB98 /* Sources */,
+				15497CFF254D5E980069DB98 /* Frameworks */,
+				15497D00254D5E980069DB98 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Awamori;
-			productName = Awamori;
-			productReference = 15AFC2EA254D56150021CE12 /* Awamori.app */;
+			name = Agasa;
+			productName = Agasa;
+			productReference = 15497D02254D5E980069DB98 /* Agasa.app */;
 			productType = "com.apple.product-type.application";
 		};
-		15AFC2FA254D56170021CE12 /* AwamoriTests */ = {
+		15497D12254D5E990069DB98 /* AgasaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15AFC312254D56170021CE12 /* Build configuration list for PBXNativeTarget "AwamoriTests" */;
+			buildConfigurationList = 15497D2A254D5E990069DB98 /* Build configuration list for PBXNativeTarget "AgasaTests" */;
 			buildPhases = (
-				15AFC2F7254D56170021CE12 /* Sources */,
-				15AFC2F8254D56170021CE12 /* Frameworks */,
-				15AFC2F9254D56170021CE12 /* Resources */,
+				15497D0F254D5E990069DB98 /* Sources */,
+				15497D10254D5E990069DB98 /* Frameworks */,
+				15497D11254D5E990069DB98 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				15AFC2FD254D56170021CE12 /* PBXTargetDependency */,
+				15497D15254D5E990069DB98 /* PBXTargetDependency */,
 			);
-			name = AwamoriTests;
-			productName = AwamoriTests;
-			productReference = 15AFC2FB254D56170021CE12 /* AwamoriTests.xctest */;
+			name = AgasaTests;
+			productName = AgasaTests;
+			productReference = 15497D13254D5E990069DB98 /* AgasaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		15AFC305254D56170021CE12 /* AwamoriUITests */ = {
+		15497D1D254D5E990069DB98 /* AgasaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15AFC315254D56170021CE12 /* Build configuration list for PBXNativeTarget "AwamoriUITests" */;
+			buildConfigurationList = 15497D2D254D5E990069DB98 /* Build configuration list for PBXNativeTarget "AgasaUITests" */;
 			buildPhases = (
-				15AFC302254D56170021CE12 /* Sources */,
-				15AFC303254D56170021CE12 /* Frameworks */,
-				15AFC304254D56170021CE12 /* Resources */,
+				15497D1A254D5E990069DB98 /* Sources */,
+				15497D1B254D5E990069DB98 /* Frameworks */,
+				15497D1C254D5E990069DB98 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				15AFC308254D56170021CE12 /* PBXTargetDependency */,
+				15497D20254D5E990069DB98 /* PBXTargetDependency */,
 			);
-			name = AwamoriUITests;
-			productName = AwamoriUITests;
-			productReference = 15AFC306254D56170021CE12 /* AwamoriUITests.xctest */;
+			name = AgasaUITests;
+			productName = AgasaUITests;
+			productReference = 15497D1E254D5E990069DB98 /* AgasaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		15AFC2E2254D56150021CE12 /* Project object */ = {
+		15497CFA254D5E980069DB98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					15AFC2E9254D56150021CE12 = {
+					15497D01254D5E980069DB98 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
-					15AFC2FA254D56170021CE12 = {
+					15497D12254D5E990069DB98 = {
 						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = 15AFC2E9254D56150021CE12;
+						TestTargetID = 15497D01254D5E980069DB98;
 					};
-					15AFC305254D56170021CE12 = {
+					15497D1D254D5E990069DB98 = {
 						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = 15AFC2E9254D56150021CE12;
+						TestTargetID = 15497D01254D5E980069DB98;
 					};
 				};
 			};
-			buildConfigurationList = 15AFC2E5254D56150021CE12 /* Build configuration list for PBXProject "Awamori" */;
+			buildConfigurationList = 15497CFD254D5E980069DB98 /* Build configuration list for PBXProject "Agasa" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,36 +219,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 15AFC2E1254D56150021CE12;
-			productRefGroup = 15AFC2EB254D56150021CE12 /* Products */;
+			mainGroup = 15497CF9254D5E980069DB98;
+			productRefGroup = 15497D03254D5E980069DB98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15AFC2E9254D56150021CE12 /* Awamori */,
-				15AFC2FA254D56170021CE12 /* AwamoriTests */,
-				15AFC305254D56170021CE12 /* AwamoriUITests */,
+				15497D01254D5E980069DB98 /* Agasa */,
+				15497D12254D5E990069DB98 /* AgasaTests */,
+				15497D1D254D5E990069DB98 /* AgasaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15AFC2E8254D56150021CE12 /* Resources */ = {
+		15497D00254D5E980069DB98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15AFC2F5254D56170021CE12 /* Preview Assets.xcassets in Resources */,
-				15AFC2F2254D56170021CE12 /* Assets.xcassets in Resources */,
+				15497D0D254D5E990069DB98 /* Preview Assets.xcassets in Resources */,
+				15497D0A254D5E990069DB98 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15AFC2F9254D56170021CE12 /* Resources */ = {
+		15497D11254D5E990069DB98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15AFC304254D56170021CE12 /* Resources */ = {
+		15497D1C254D5E990069DB98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,49 +258,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15AFC2E6254D56150021CE12 /* Sources */ = {
+		15497CFE254D5E980069DB98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15AFC2F0254D56150021CE12 /* ContentView.swift in Sources */,
-				15AFC31C254D57CB0021CE12 /* MapView.swift in Sources */,
-				15AFC2EE254D56150021CE12 /* AwamoriApp.swift in Sources */,
+				15497D08254D5E980069DB98 /* ContentView.swift in Sources */,
+				15553BB9254D6012000BE642 /* MapView.swift in Sources */,
+				15497D06254D5E980069DB98 /* AgasaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15AFC2F7254D56170021CE12 /* Sources */ = {
+		15497D0F254D5E990069DB98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15AFC300254D56170021CE12 /* AwamoriTests.swift in Sources */,
+				15497D18254D5E990069DB98 /* AgasaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15AFC302254D56170021CE12 /* Sources */ = {
+		15497D1A254D5E990069DB98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15AFC30B254D56170021CE12 /* AwamoriUITests.swift in Sources */,
+				15497D23254D5E990069DB98 /* AgasaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15AFC2FD254D56170021CE12 /* PBXTargetDependency */ = {
+		15497D15254D5E990069DB98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15AFC2E9254D56150021CE12 /* Awamori */;
-			targetProxy = 15AFC2FC254D56170021CE12 /* PBXContainerItemProxy */;
+			target = 15497D01254D5E980069DB98 /* Agasa */;
+			targetProxy = 15497D14254D5E990069DB98 /* PBXContainerItemProxy */;
 		};
-		15AFC308254D56170021CE12 /* PBXTargetDependency */ = {
+		15497D20254D5E990069DB98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15AFC2E9254D56150021CE12 /* Awamori */;
-			targetProxy = 15AFC307254D56170021CE12 /* PBXContainerItemProxy */;
+			target = 15497D01254D5E980069DB98 /* Agasa */;
+			targetProxy = 15497D1F254D5E990069DB98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15AFC30D254D56170021CE12 /* Debug */ = {
+		15497D25254D5E990069DB98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -361,7 +361,7 @@
 			};
 			name = Debug;
 		};
-		15AFC30E254D56170021CE12 /* Release */ = {
+		15497D26254D5E990069DB98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,21 +416,22 @@
 			};
 			name = Release;
 		};
-		15AFC310254D56170021CE12 /* Debug */ = {
+		15497D28254D5E990069DB98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Awamori/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Agasa/Preview Content\"";
 				DEVELOPMENT_TEAM = HX3SV359MU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Awamori/Info.plist;
+				INFOPLIST_FILE = Agasa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoshiatsu.irei.Awamori;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -438,21 +439,22 @@
 			};
 			name = Debug;
 		};
-		15AFC311254D56170021CE12 /* Release */ = {
+		15497D29254D5E990069DB98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Awamori/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Agasa/Preview Content\"";
 				DEVELOPMENT_TEAM = HX3SV359MU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Awamori/Info.plist;
+				INFOPLIST_FILE = Agasa/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoshiatsu.irei.Awamori;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -460,130 +462,130 @@
 			};
 			name = Release;
 		};
-		15AFC313254D56170021CE12 /* Debug */ = {
+		15497D2B254D5E990069DB98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HX3SV359MU;
-				INFOPLIST_FILE = AwamoriTests/Info.plist;
+				INFOPLIST_FILE = AgasaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoshiatsu.irei.AwamoriTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshiatsu.irei.AgasaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awamori.app/Awamori";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agasa.app/Agasa";
 			};
 			name = Debug;
 		};
-		15AFC314254D56170021CE12 /* Release */ = {
+		15497D2C254D5E990069DB98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HX3SV359MU;
-				INFOPLIST_FILE = AwamoriTests/Info.plist;
+				INFOPLIST_FILE = AgasaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoshiatsu.irei.AwamoriTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshiatsu.irei.AgasaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awamori.app/Awamori";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Agasa.app/Agasa";
 			};
 			name = Release;
 		};
-		15AFC316254D56170021CE12 /* Debug */ = {
+		15497D2E254D5E990069DB98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HX3SV359MU;
-				INFOPLIST_FILE = AwamoriUITests/Info.plist;
+				INFOPLIST_FILE = AgasaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoshiatsu.irei.AwamoriUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshiatsu.irei.AgasaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Awamori;
+				TEST_TARGET_NAME = Agasa;
 			};
 			name = Debug;
 		};
-		15AFC317254D56170021CE12 /* Release */ = {
+		15497D2F254D5E990069DB98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HX3SV359MU;
-				INFOPLIST_FILE = AwamoriUITests/Info.plist;
+				INFOPLIST_FILE = AgasaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoshiatsu.irei.AwamoriUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshiatsu.irei.AgasaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Awamori;
+				TEST_TARGET_NAME = Agasa;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15AFC2E5254D56150021CE12 /* Build configuration list for PBXProject "Awamori" */ = {
+		15497CFD254D5E980069DB98 /* Build configuration list for PBXProject "Agasa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15AFC30D254D56170021CE12 /* Debug */,
-				15AFC30E254D56170021CE12 /* Release */,
+				15497D25254D5E990069DB98 /* Debug */,
+				15497D26254D5E990069DB98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15AFC30F254D56170021CE12 /* Build configuration list for PBXNativeTarget "Awamori" */ = {
+		15497D27254D5E990069DB98 /* Build configuration list for PBXNativeTarget "Agasa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15AFC310254D56170021CE12 /* Debug */,
-				15AFC311254D56170021CE12 /* Release */,
+				15497D28254D5E990069DB98 /* Debug */,
+				15497D29254D5E990069DB98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15AFC312254D56170021CE12 /* Build configuration list for PBXNativeTarget "AwamoriTests" */ = {
+		15497D2A254D5E990069DB98 /* Build configuration list for PBXNativeTarget "AgasaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15AFC313254D56170021CE12 /* Debug */,
-				15AFC314254D56170021CE12 /* Release */,
+				15497D2B254D5E990069DB98 /* Debug */,
+				15497D2C254D5E990069DB98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15AFC315254D56170021CE12 /* Build configuration list for PBXNativeTarget "AwamoriUITests" */ = {
+		15497D2D254D5E990069DB98 /* Build configuration list for PBXNativeTarget "AgasaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15AFC316254D56170021CE12 /* Debug */,
-				15AFC317254D56170021CE12 /* Release */,
+				15497D2E254D5E990069DB98 /* Debug */,
+				15497D2F254D5E990069DB98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 15AFC2E2254D56150021CE12 /* Project object */;
+	rootObject = 15497CFA254D5E980069DB98 /* Project object */;
 }
