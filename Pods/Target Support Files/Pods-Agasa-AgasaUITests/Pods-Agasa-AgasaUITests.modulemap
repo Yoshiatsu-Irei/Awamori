@@ -1,0 +1,6 @@
+framework module Pods_Agasa_AgasaUITests {
+  umbrella header "Pods-Agasa-AgasaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
