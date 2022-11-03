@@ -1,14 +1,14 @@
 //
-//  AwamoriApp.swift
-//  Awamori
+//  AwamoriMapApp.swift
+//  AwamoriMap
 //
-//  Created by 伊禮吉充 on 2020/10/31.
+//  Created by Yoshiatsu Irei on 2022/11/03.
 //
 
 import SwiftUI
 
 @main
-struct AwamoriApp: App {
+struct AwamoriMapApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

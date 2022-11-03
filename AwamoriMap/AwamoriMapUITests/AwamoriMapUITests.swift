@@ -1,13 +1,13 @@
 //
-//  AwamoriUITests.swift
-//  AwamoriUITests
+//  AwamoriMapUITests.swift
+//  AwamoriMapUITests
 //
-//  Created by 伊禮吉充 on 2020/10/31.
+//  Created by Yoshiatsu Irei on 2022/11/03.
 //
 
 import XCTest
 
-class AwamoriUITests: XCTestCase {
+final class AwamoriMapUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,12 +27,11 @@ class AwamoriUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
     func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
+        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
             // This measures how long it takes to launch your application.
             measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()
